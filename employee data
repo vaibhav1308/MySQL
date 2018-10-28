@@ -1,4 +1,5 @@
- CREATE TABLE employee
+#To create employee table and to add data
+CREATE TABLE employee
     (eid INT(50),ename CHAR(20),dob DATE,eaddress VARCHAR(20),esalary INT(20));
  INSERT INTO employee(eid,ename,dob,eaddress,esalary) VALUES
     (1,'vaibhav','2000/08/13','santacruz',10000),
